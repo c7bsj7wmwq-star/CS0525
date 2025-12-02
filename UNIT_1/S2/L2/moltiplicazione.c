@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+
+    int a;
+    int b;
+    int moltiplicazione;
+    
+    printf("inserisci il primo numero ");
+        scanf("%d", &a);
+
+          printf("inserisci il secondo numero ");
+        scanf("%d", &b);
+
+        moltiplicazione= a * b;
+        
+         printf("il risultato è: %d", moltiplicazione);
+
+
+    return 0;
+}
